@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="icon" type="image/x-icon" href="IMG_4656.PNG">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+</head>
+<body>
+    <div class="add">
+        <div class="log">
+            <i class="fa-solid fa-xmark"></i>
+            <input class="ad" type="text" placeholder="Ad">
+            <input class="soyad" type="text" placeholder="Soyad">
+            <input class="ish" type="text" placeholder="Ish">
+            <input class="olke" type="text" placeholder="Olke">
+            <input class="maash" type="number" placeholder="Maash">
+            <button>Elave et</button>
+        </div>
+        <div class="remove">
+            <i class="fa-regular fa-circle-xmark"></i>
+            <span>ARE YOU SURE?</span>
+            <button>Cancle</button>
+            <button>REMOVE</button>
+        </div>
+        <div class="edit">
+            <i class="fa-solid fa-xmark"></i>
+            <input class="ad" type="text" placeholder="Ad">
+            <input class="soyad" type="text" placeholder="Soyad">
+            <input class="ish" type="text" placeholder="Ish">
+            <input class="olke" type="text" placeholder="Olke">
+            <input class="maash" type="number" placeholder="Maash">
+            <button>Confirm</button>
+        </div>
+    </div>
+    <div class="blur">
+    <button class="bt">Add</button>
+    <input class="sch" type="search"  placeholder="Search">
+    <select name="list" id="list">
+        <option value="all">All</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <button class="del">Delete</button>
+    <table>
+        <thead>
+            <tr>
+                <th class="s">№</th>
+                <th class="ad">Ad <i class="fa-solid fa-arrows-up-down"></i></th>
+                <th class="soyad">Soyad<i class="fa-solid fa-arrows-up-down"></i></th>
+                <th class="ish">Ish <i class="fa-solid fa-arrows-up-down"></i></th>
+                <th class="olke">Olke <i class="fa-solid fa-arrows-up-down"></i></th>
+                <th class="maash">Maash <i class="fa-solid fa-arrows-up-down"></i></th>
+                <th class="edit/remove">Edit/Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td><input type="checkbox" class="ch"> </input>Huseyn</td>
+                <td>Hesenzade</td>
+                <td>Frontend Dev</td>
+                <td>AZE</td>
+                <td>5000$</td>
+                <td><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+            </tr>
+            <tr>
+                <td >2</td>
+                <td > <input type="checkbox" class="ch"> </input>Kenan</td>
+                <td >Orucov</td>
+                <td >Backend Dev</td>
+                <td >AZE</td>
+                <td >8000$</td>
+                <td ><i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-trash"></i></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <script src="table2.js"></script>
+</body>
+</html>

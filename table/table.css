@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+.blur{
+    padding-top: 100px;
+}
+.bt{
+    width: 55px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    right: 270px;
+    border: none;
+    background-color: rgb(230, 86, 29);
+    color: white;
+    border-radius: 0.25rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+.sch{
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    outline: none;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    padding-left: 10px;
+}
+table{
+    width: 65%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 2px solid #e0e0e0;
+}
+td{
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 22px;
+    height: 40px;
+}
+.s{
+    width: 5%;
+}
+.ad{
+    width: 15%;
+}
+.soyad{
+    width: 20%;
+}
+.ish{
+    width: 15%;
+}
+.maash{
+    width: 20%;
+}
+.olke{
+    width: 20%;
+}
+.edit{
+    width: 5%;
+}
+.add{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.679);
+    display: none;
+    z-index: 100;
+}
+.log{
+    border-radius: 1rem;
+    margin: 250px auto;
+    width: 18%;
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+    padding-top: 20px;
+    display: none;
+}
+
+.log i{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+.log input{
+    margin-top: 15px;
+    width: 80%;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+    outline: none;
+    padding-left: 8px;
+}
+.log button{
+    width: 80%;
+    margin: 20px 0 20px 0;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+}
+.remove{
+    border-radius: 1rem;
+    margin: 250px auto;
+    width: 18%;
+    text-align: center;
+    background-color: aliceblue;
+    padding-top: 20px;
+    display: none;
+}
+.remove i{
+    color: red;
+    font-size: 100px;
+    display: block;
+}
+.remove span{
+    display: block;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.remove button{
+    width: 100px;
+    margin: 20px 6px;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+}
+.remove button:last-child{
+    background-color: red;
+    color: white;
+}
+td i{
+    display: block;
+    margin-right: 30px;
+    color: blue;
+}
+td i:last-child{
+    color: red;
+}
+table tr td:last-child{
+    text-align: center;
+}
+.edit{
+    border-radius: 1rem;
+    margin: 250px auto;
+    width: 18%;
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+    padding-top: 20px;
+    display: none;
+}
+.edit i{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+.edit input{
+    margin-top: 15px;
+    width: 80%;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+    outline: none;
+    padding-left: 8px;
+}
+.edit button{
+    width: 80%;
+    margin: 20px 0 20px 0;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+}
+select{
+    position: absolute;
+    top: 52px;
+    right: 350px;
+    font-size: 15px;
+}
+.del{
+    position: absolute;
+    top: 50px;
+    right: 450px;
+    width: 80px;
+    height: 28px;
+    border-radius: 0.5rem;
+    border: 1px solid #a0a0a0;
+    background-color: red;
+    color: white;
+}
+@media(max-width:768px){
+    table{
+        width: 90% !important;
+    }
+    th{
+        font-size: 15px;
+    }
+    .bt{
+        right: 20px;
+    }
+    .log{
+        width: 60%;
+    }
+    td{
+        font-size: 14px;
+    }
+}
